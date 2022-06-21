@@ -1,5 +1,5 @@
 // phaser game config
-export const GameConfig = {
+export const gameConfig: GameConfig = {
 	type: Phaser.AUTO,
 	scale: {
 		parent: 'game-container',
@@ -18,5 +18,8 @@ export const GameConfig = {
 			// debug: window.env.buildType !== 'production',
 			gravity: { y: 200 },
 		}
+	},
+	plugins: {
+		global: [] as any[],
 	},
 };
