@@ -1,5 +1,5 @@
 // phaser game config
-export const gameConfig: GameConfig = {
+export const GameConfig = {
 	type: Phaser.AUTO,
 	scale: {
 		parent: 'game-container',
