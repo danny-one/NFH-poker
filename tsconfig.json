@@ -4,7 +4,9 @@
 		"noImplicitAny": true,
 		"module": "commonjs",
 		"target": "esnext",
-		"allowJs": true
+		"allowJs": true,
+		"esModuleInterop": true,
+		"isolatedModules": true
 	},
 	"exclude": [
 		"node_modules",
