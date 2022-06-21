@@ -19,7 +19,4 @@ export const GameConfig = {
 			gravity: { y: 200 },
 		}
 	},
-	plugins: {
-		global: [] as any[],
-	},
 };
