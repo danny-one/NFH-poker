@@ -8,15 +8,10 @@ import { gameSettings } from './config/GameSettings';
 import { LoaderScene } from './scenes/LoaderScene';
 
 // set up game class, and global stuff
-export class KokoGame extends Phaser.Game {
-	constructor(config: GameConfig) {
-		super(config);
-	}
-}
 
 // start the game
 window.onload = () => {
-	const game = new KokoGame(gameConfig);
+	const game = new Phaser.Game(gameConfig);
 
 	// set up stats
 	if (window.env.buildType !== 'production') {
@@ -36,3 +31,4 @@ window.onload = () => {
 	game.scene.add('LoaderScene', LoaderScene, false);
 	game.scene.add('GameScene', GameScene, false, gameSettings);
 };
+
