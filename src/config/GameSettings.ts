@@ -10,7 +10,7 @@ export interface IHand {
 	name: string;
 }
 
-export const gameSettings = {
+export const gameSettings: IGameSettings = {
 	maxBet: 5,
 	betStep: 1,
 	betStart: 1,
