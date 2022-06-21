@@ -9,8 +9,6 @@ import { LoaderScene } from './scenes/LoaderScene';
 
 // set up game class, and global stuff
 export class KokoGame extends Phaser.Game {
-	private debug: boolean = false;
-
 	constructor(config: GameConfig) {
 		super(config);
 	}
